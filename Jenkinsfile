@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)'
+                git branch: 'main', url: 'https://github.com/Pranav-Hopal12/Two-Tier-Flask-Application-with-Automated-Cloud-Deployment.git'
             }
         }
         stage('Build Docker Image') {
